@@ -6,7 +6,7 @@ function generateMarkdown(userQuestions) {
 ========================================================================================================
 ## Description
 ${userQuestions.description} 
-You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+
 
 ## **Table of contents**
 * [Description](#description)
@@ -20,15 +20,17 @@ You can quickly and easily create a README file by using a command-line applicat
 ${userQuestions.instructions}
 
 ## Usage
-${userQuestions.usage} 
---------------------------------------------------------------------------------------------------------
+
+ ${userQuestions.usage} 
+
  We can test for:
  ${userQuestions.test}
 
  ## Contributors
  ${userQuestions.collabs}
  ## Contact
- If you have any questions or concerns my contact info is below.
+  If you have any questions or concerns my contact info is below.
+
  https://github.com/${userQuestions.gitHubName}/
  ${userQuestions.email}
 `;
