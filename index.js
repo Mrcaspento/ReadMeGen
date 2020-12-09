@@ -40,7 +40,7 @@ const userQuestions = [
 },{
     type: 'input',
     message: 'Who helped if any to your app?',
-    name: 'collabs'
+    name: 'collabartors'
 }
 ];
 

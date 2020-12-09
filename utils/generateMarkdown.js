@@ -7,11 +7,11 @@ function generateMarkdown(userQuestions) {
 
 ## **Table of contents**
 * [Description](#description)
-* [Installation]()
-* [Usage]()
-* [License]()
-* [Contributors]()
-* [Contact]()
+* [Installation](#instructions)
+* [Usage](#usage)
+* [License](#test)
+* [Contributors](#Collabartors)
+* [Contact](#email)
 
 ## Installation
 ${userQuestions.instructions}
