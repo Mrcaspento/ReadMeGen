@@ -15,7 +15,7 @@
 open up your bash terminal and type `npm i inquirer` and add a .gitignore `node_modules/` & `DS_Store/` 
 
 ## Usage
-To help create a high quality readme for any project 
+ To help create a high quality readme for any project 
 --------------------------------------------------------------------------------------------------------
  We can test for:
  `npm start`

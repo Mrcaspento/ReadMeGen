@@ -4,6 +4,9 @@ function generateMarkdown(userQuestions) {
   # ${userQuestions.title}
   ![badge](https://img.shields.io/static/v1?label=License&message=${userQuestions.license}&color=success)
 ========================================================================================================
+## Description
+${userQuestions.description} 
+You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
 
 ## **Table of contents**
 * [Description](#description)
