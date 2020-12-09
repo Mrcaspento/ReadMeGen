@@ -6,7 +6,7 @@ function generateMarkdown(userQuestions) {
 ========================================================================================================
 
 ## **Table of contents**
-* [Description]()
+* [Description](#description)
 * [Installation]()
 * [Usage]()
 * [License]()
@@ -21,6 +21,13 @@ ${userQuestions.usage}
 --------------------------------------------------------------------------------------------------------
  We can test for:
  ${userQuestions.test}
+
+ ## Contributors
+ ${userQuestions.collabs}
+ ## Contact
+ If you have any questions or concerns my contact info is below.
+ https://github.com/${userQuestions.gitHubName}/
+ ${userQuestions.email}
 `;
 }
 

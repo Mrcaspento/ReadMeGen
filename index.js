@@ -32,7 +32,7 @@ const userQuestions = [
 },{
     type: 'input',
     message: 'What is your github username?',
-    name: 'gitName'
+    name: 'gitHubName'
 },{
     type: 'input',
     message: 'What is your email?',
