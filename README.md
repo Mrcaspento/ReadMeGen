@@ -4,7 +4,7 @@
 ========================================================================================================
  ## Description
  You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
-
+[link to video of app deployed](https://youtu.be/iFAXK-4y5ao)
 ## **Table of contents**
 * [Description](#description)
 * [Installation](#instructions)
@@ -20,7 +20,7 @@ open up your bash terminal and type `npm i inquirer` and add a .gitignore `node_
 
  We can test for:
  `npm start`
- To create a high quailty readme
+ To create a high quailty readme.
 
  ## Contributors
  undefined
