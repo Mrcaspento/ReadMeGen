@@ -28,7 +28,7 @@ const userQuestions = [
     type: 'list',
     message: 'Which licence would you include',
     name: 'license',
-    choices: ["MIT","GNU"]
+    choices: ["MIT","GNU","Mozilla","BSD-2"]
 },{
     type: 'input',
     message: 'What is your github username?',
