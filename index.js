@@ -45,12 +45,15 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(uselessRobotWriter) {
 }
 
 // function to initialize program
 function init() {
-
+    inquirer.prompt(questions).then(data => {
+        const uselessRobotWriter = genMarkdown(data)
+        writeToFile(uselessRobotWriter)
+    })
 }
 
 // function call to initialize program
