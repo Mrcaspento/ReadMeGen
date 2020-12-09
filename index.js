@@ -3,7 +3,7 @@ const inquirer = require('inquirer');
 const genMarkdown = require('./utils/generateMarkdown');
 
 // array of questions for user
-const questions = [
+const userQuestions = [
 {
     type: 'input',
     message: 'What is the title of the project?',
@@ -46,11 +46,12 @@ const questions = [
 
 // function to write README file
 function writeToFile(uselessRobotWriter) {
-}
-
+    fs.writeFile('README.md',uselessRobotWriter, (err) =>
+    err ? console.error(err) : console.log('ReadMe has been made NOOICE!')
+    )};
 // function to initialize program
 function init() {
-    inquirer.prompt(questions).then(data => {
+    inquirer.prompt(userQuestions).then(data => {
         const uselessRobotWriter = genMarkdown(data)
         writeToFile(uselessRobotWriter)
     })
